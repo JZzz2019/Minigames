@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -198,7 +198,6 @@ GameObject:
   - component: {fileID: 97884774}
   - component: {fileID: 97884779}
   - component: {fileID: 97884778}
-  - component: {fileID: 97884777}
   - component: {fileID: 97884776}
   - component: {fileID: 97884775}
   - component: {fileID: 97884780}
@@ -249,24 +248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &97884777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97884773}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &97884778
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -332,7 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &138028592
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +325,6 @@ GameObject:
   - component: {fileID: 138028593}
   - component: {fileID: 138028598}
   - component: {fileID: 138028597}
-  - component: {fileID: 138028596}
   - component: {fileID: 138028595}
   - component: {fileID: 138028594}
   - component: {fileID: 138028599}
@@ -395,24 +375,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &138028596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138028592}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &138028597
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -478,7 +440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &178873760
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +452,6 @@ GameObject:
   - component: {fileID: 178873761}
   - component: {fileID: 178873766}
   - component: {fileID: 178873765}
-  - component: {fileID: 178873764}
   - component: {fileID: 178873763}
   - component: {fileID: 178873762}
   - component: {fileID: 178873767}
@@ -541,24 +502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &178873764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178873760}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &178873765
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -624,7 +567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &238632141
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,7 +579,6 @@ GameObject:
   - component: {fileID: 238632142}
   - component: {fileID: 238632147}
   - component: {fileID: 238632146}
-  - component: {fileID: 238632145}
   - component: {fileID: 238632144}
   - component: {fileID: 238632143}
   - component: {fileID: 238632148}
@@ -687,24 +629,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &238632145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238632141}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &238632146
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -770,7 +694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &305472532
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,7 +738,6 @@ GameObject:
   - component: {fileID: 508048056}
   - component: {fileID: 508048061}
   - component: {fileID: 508048060}
-  - component: {fileID: 508048059}
   - component: {fileID: 508048058}
   - component: {fileID: 508048057}
   - component: {fileID: 508048062}
@@ -865,24 +788,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &508048059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508048055}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &508048060
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -948,7 +853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &518014236
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +865,6 @@ GameObject:
   - component: {fileID: 518014237}
   - component: {fileID: 518014242}
   - component: {fileID: 518014241}
-  - component: {fileID: 518014240}
   - component: {fileID: 518014239}
   - component: {fileID: 518014238}
   - component: {fileID: 518014243}
@@ -1011,24 +915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &518014240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518014236}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &518014241
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1094,7 +980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &635875566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,7 +1056,6 @@ GameObject:
   - component: {fileID: 902307013}
   - component: {fileID: 902307018}
   - component: {fileID: 902307017}
-  - component: {fileID: 902307016}
   - component: {fileID: 902307015}
   - component: {fileID: 902307014}
   - component: {fileID: 902307019}
@@ -1221,24 +1106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &902307016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902307012}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &902307017
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1304,7 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1028517819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1527,7 +1394,6 @@ GameObject:
   - component: {fileID: 1162790772}
   - component: {fileID: 1162790777}
   - component: {fileID: 1162790776}
-  - component: {fileID: 1162790775}
   - component: {fileID: 1162790774}
   - component: {fileID: 1162790773}
   - component: {fileID: 1162790778}
@@ -1578,24 +1444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1162790775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1162790771}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1162790776
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1661,7 +1509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1177194187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,7 +1521,6 @@ GameObject:
   - component: {fileID: 1177194188}
   - component: {fileID: 1177194193}
   - component: {fileID: 1177194192}
-  - component: {fileID: 1177194191}
   - component: {fileID: 1177194190}
   - component: {fileID: 1177194189}
   - component: {fileID: 1177194194}
@@ -1724,24 +1571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1177194191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177194187}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1177194192
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1807,7 +1636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1251631581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,7 +1648,6 @@ GameObject:
   - component: {fileID: 1251631582}
   - component: {fileID: 1251631587}
   - component: {fileID: 1251631586}
-  - component: {fileID: 1251631585}
   - component: {fileID: 1251631584}
   - component: {fileID: 1251631583}
   - component: {fileID: 1251631588}
@@ -1870,24 +1698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1251631585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251631581}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1251631586
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1953,7 +1763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1300548526
 GameObject:
   m_ObjectHideFlags: 0
@@ -1997,7 +1807,6 @@ GameObject:
   - component: {fileID: 1312321922}
   - component: {fileID: 1312321927}
   - component: {fileID: 1312321926}
-  - component: {fileID: 1312321925}
   - component: {fileID: 1312321924}
   - component: {fileID: 1312321923}
   - component: {fileID: 1312321928}
@@ -2048,24 +1857,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1312321925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312321921}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1312321926
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2131,7 +1922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1355707247
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,7 +1934,6 @@ GameObject:
   - component: {fileID: 1355707248}
   - component: {fileID: 1355707253}
   - component: {fileID: 1355707252}
-  - component: {fileID: 1355707251}
   - component: {fileID: 1355707250}
   - component: {fileID: 1355707249}
   - component: {fileID: 1355707254}
@@ -2194,24 +1984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1355707251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355707247}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1355707252
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2277,7 +2049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1373289820
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,7 +2093,7 @@ GameObject:
   - component: {fileID: 1396774947}
   - component: {fileID: 1396774946}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2336,11 +2108,11 @@ Light:
   m_GameObject: {fileID: 1396774945}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 1
+  m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 3.1
+  m_Range: 17
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2378,7 +2150,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2397,7 +2169,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396774945}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 20.1, y: 17.9, z: -10.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2415,7 +2187,6 @@ GameObject:
   - component: {fileID: 1408288664}
   - component: {fileID: 1408288669}
   - component: {fileID: 1408288668}
-  - component: {fileID: 1408288667}
   - component: {fileID: 1408288666}
   - component: {fileID: 1408288665}
   - component: {fileID: 1408288670}
@@ -2466,24 +2237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1408288667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408288663}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1408288668
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2549,7 +2302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1437280580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,7 +2410,6 @@ GameObject:
   - component: {fileID: 1576366399}
   - component: {fileID: 1576366404}
   - component: {fileID: 1576366403}
-  - component: {fileID: 1576366402}
   - component: {fileID: 1576366401}
   - component: {fileID: 1576366400}
   - component: {fileID: 1576366405}
@@ -2708,24 +2460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1576366402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576366398}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1576366403
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2791,7 +2525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1640838202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,7 +2633,6 @@ GameObject:
   - component: {fileID: 1715473019}
   - component: {fileID: 1715473024}
   - component: {fileID: 1715473023}
-  - component: {fileID: 1715473022}
   - component: {fileID: 1715473021}
   - component: {fileID: 1715473020}
   - component: {fileID: 1715473025}
@@ -2950,24 +2683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1715473022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715473018}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1715473023
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3033,7 +2748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1728740064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3077,7 +2792,6 @@ GameObject:
   - component: {fileID: 1737764435}
   - component: {fileID: 1737764440}
   - component: {fileID: 1737764439}
-  - component: {fileID: 1737764438}
   - component: {fileID: 1737764437}
   - component: {fileID: 1737764436}
   - component: {fileID: 1737764441}
@@ -3128,24 +2842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1737764438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737764434}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1737764439
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3211,7 +2907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &1789787903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3287,7 +2983,6 @@ GameObject:
   - component: {fileID: 1895761851}
   - component: {fileID: 1895761856}
   - component: {fileID: 1895761855}
-  - component: {fileID: 1895761854}
   - component: {fileID: 1895761853}
   - component: {fileID: 1895761852}
   - component: {fileID: 1895761857}
@@ -3338,24 +3033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1895761854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895761850}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1895761855
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3421,7 +3098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0.1
+  scaleAdder: 0
 --- !u!1 &1941609501
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,7 +3142,6 @@ GameObject:
   - component: {fileID: 2017469784}
   - component: {fileID: 2017469789}
   - component: {fileID: 2017469788}
-  - component: {fileID: 2017469787}
   - component: {fileID: 2017469786}
   - component: {fileID: 2017469785}
   - component: {fileID: 2017469790}
@@ -3516,24 +3192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2017469787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017469783}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &2017469788
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3599,7 +3257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &2028599437
 GameObject:
   m_ObjectHideFlags: 0
@@ -3611,7 +3269,6 @@ GameObject:
   - component: {fileID: 2028599438}
   - component: {fileID: 2028599443}
   - component: {fileID: 2028599442}
-  - component: {fileID: 2028599441}
   - component: {fileID: 2028599440}
   - component: {fileID: 2028599439}
   - component: {fileID: 2028599444}
@@ -3662,24 +3319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2028599441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028599437}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &2028599442
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3745,7 +3384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &2078153656
 GameObject:
   m_ObjectHideFlags: 0
@@ -3757,7 +3396,6 @@ GameObject:
   - component: {fileID: 2078153657}
   - component: {fileID: 2078153662}
   - component: {fileID: 2078153661}
-  - component: {fileID: 2078153660}
   - component: {fileID: 2078153659}
   - component: {fileID: 2078153658}
   - component: {fileID: 2078153663}
@@ -3808,24 +3446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38bfe5f3956dde843b3abf10125ab4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2078153660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078153656}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.057493784, g: 0.5634701, b: 0.7169812, a: 1}
-  outlineWidth: 6
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &2078153661
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3891,7 +3511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsTesting: 0
-  scaleModifier: 0
+  scaleAdder: 0
 --- !u!1 &2104638766
 GameObject:
   m_ObjectHideFlags: 0

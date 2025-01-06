@@ -9,15 +9,9 @@ public class EventClick : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
     public Action OnHover;
     public Action OnUnhover;
     public Action OnSelect;
-    //private void Awake()
-    //{
-    //    outline = GetComponent<Outline>();
-    //    isOutlineEnabled = outline.enabled;
-    //}
+
     public void OnPointerClick(PointerEventData eventData)
     {
-        //isOutlineEnabled = !isOutlineEnabled;
-        //outline.enabled = isOutlineEnabled;
         OnSelect?.Invoke();
     }
     public void OnPointerEnter(PointerEventData eventData)
